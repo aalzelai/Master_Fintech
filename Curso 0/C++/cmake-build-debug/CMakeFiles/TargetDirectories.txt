@@ -1,0 +1,3 @@
+C:/Users/Andoni/Desktop/UC3M/Fintech/Curso 0/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andoni/Desktop/UC3M/Fintech/Curso 0/C++/cmake-build-debug/CMakeFiles/C__.dir
+C:/Users/Andoni/Desktop/UC3M/Fintech/Curso 0/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
