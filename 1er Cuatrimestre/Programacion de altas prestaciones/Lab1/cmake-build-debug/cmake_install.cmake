@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Andoni/Desktop/UC3M/Fintech/1er Cuatrimestre/Programacion de altas prestaciones/Lab1
+# Install script for directory: D:/UC3M/Master_Fintech/1er Cuatrimestre/Programacion de altas prestaciones/Lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Andoni/Desktop/UC3M/Fintech/1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/UC3M/Master_Fintech/1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

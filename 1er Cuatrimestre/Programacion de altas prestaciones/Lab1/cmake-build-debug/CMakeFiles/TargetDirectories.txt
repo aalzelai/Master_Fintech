@@ -1,3 +1,3 @@
-C:/Users/Andoni/Desktop/UC3M/Fintech/1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir
-C:/Users/Andoni/Desktop/UC3M/Fintech/1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Andoni/Desktop/UC3M/Fintech/1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/UC3M/Master_Fintech/1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir
+D:/UC3M/Master_Fintech/1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/UC3M/Master_Fintech/1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
