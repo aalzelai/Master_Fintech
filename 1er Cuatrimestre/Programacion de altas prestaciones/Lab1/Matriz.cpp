@@ -54,7 +54,6 @@ matriz matriz::operator+(matriz &m) {
 }
 
 double matriz::operator()(double f, double c) {
-
     int valor = f*(columnas-1) + c-1;
     return valores[valor];
 
@@ -64,21 +63,17 @@ double matriz::operator()(double f, double c) {
 matriz matriz::operator*(matriz &m) {
     matriz mRes(filas, m.columnas);
     int i, j, k;
-    for (int i = 0; i < m.columnas ; i++) {
 
-
-    for (j = 0; j < this->filas; j++) {
-        std::cout << " \n " <<  "mRes(" << i+1 << ", " << j+1 << ") = ";
-        for (k = 0; k < m.columnas; k++) {
-            //mRes.valores[j*mRes.columnas+k]=0;
-            std::cout << valores[j * this->columnas + i] << "( " << i+1 << ", " << k+1 << ")" << " * " << m.valores[k * m.columnas + j] << "( " << k+1 << ", " << j+1 << ")";
-            if(k<m.columnas-1) std::cout << " + ";
-            mRes.valores[i * mRes.columnas + j] = mRes.valores[i * mRes.columnas + j] +
+    /* Final matrix position loop */
+    for (i = 0; i < m.columnas ; i++) {
+        /* Each matrix rotation loop */
+        for (j = 0; j < this->filas; j++) {
+            for (k = 0; k < m.columnas; k++) {
+                /* Ex: M3(1,1) = M3(1,1) + M1(1,2)*M2(2,1) */
+                mRes.valores[i * mRes.columnas + j] = mRes.valores[i * mRes.columnas + j] +
                                                   valores[(i * this->columnas) + k] * m.valores[k * m.columnas + j];
-            //mRes.valores[j + i*mRes.filas]=mRes.valores[j+i*mRes.filas]+ this->valores[i+k*this->filas] * m.valores[k+j*m.filas];
-
+            }
         }
-    }
     }
     return mRes;
 }
