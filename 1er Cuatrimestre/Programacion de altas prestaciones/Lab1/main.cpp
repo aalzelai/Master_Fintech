@@ -1,12 +1,30 @@
 #include <iostream>
+#include <stdio.h>
 #include <time.h>
 #include "Matriz.h"
 
-int main() {
-    matriz A(10000,10000);
-    matriz B(10000,10000);
-    matriz C(10000,10000);
-    matriz D(10000,10000);
+#define DEFSIZE 1000 // Default size
+
+int main(int argc, char *argv[]) {
+
+    int size;
+
+    // Parse Args
+    
+    if (argc > 1){
+        size = atoi(argv[1]);
+    }else{
+        size = DEFSIZE;
+    }
+
+    // Program
+
+    printf("Starting program with size = %i\n", size);
+
+    matriz A(size,size);
+    matriz B(size,size);
+    matriz C(size,size);
+    matriz D(size,size);
 
     A.rellenar_matriz();
     B.rellenar_matriz();
