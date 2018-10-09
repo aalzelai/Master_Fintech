@@ -11,7 +11,7 @@ public:
     matriz();
     void pintar_matriz();
     void rellenar_matriz();
-
+    double calcular_diagonal();
     double operator ()(double f, double c);
     matriz operator +(matriz &m);
     matriz operator *(matriz &m);

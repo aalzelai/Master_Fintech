@@ -59,6 +59,13 @@ double matriz::operator()(double f, double c) {
 
 }
 
+double matriz::calcular_diagonal() {
+    double res = 0;
+    for(int i = 0; i < filas*columnas; i++) {
+        res =+ valores[i];
+    };
+    return res;
+}
 
 matriz matriz::operator*(matriz &m) {
     matriz mRes(filas, m.columnas);

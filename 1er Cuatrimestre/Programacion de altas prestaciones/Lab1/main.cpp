@@ -3,10 +3,10 @@
 #include "Matriz.h"
 
 int main() {
-    matriz A(1000,1000);
-    matriz B(1000,1000);
-    matriz C(1000,1000);
-    matriz D(1000,1000);
+    matriz A(10000,10000);
+    matriz B(10000,10000);
+    matriz C(10000,10000);
+    matriz D(10000,10000);
 
     A.rellenar_matriz();
     B.rellenar_matriz();
