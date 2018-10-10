@@ -10,13 +10,15 @@ public:
     matriz(int filas, int columnas);
     matriz();
     void pintar_matriz();
+    inline void set_bsize(const int &bsize) {this->bsize = bsize;};
     void rellenar_matriz();
     double calcular_diagonal();
-    double operator ()(double f, double c);
+    double &operator ()(double f, double c);
     matriz operator +(matriz &m);
     matriz operator *(matriz &m);
 private:
     int filas, columnas;
+    int bsize = 0;
     double *valores;
 };
 

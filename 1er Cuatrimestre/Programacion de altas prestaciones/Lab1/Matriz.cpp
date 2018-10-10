@@ -25,7 +25,7 @@ matriz::matriz() :
 void matriz::pintar_matriz(){
     using namespace std;
     for(int i = 0; i < (filas*columnas); i++){
-     cout << valores[i] << " ";
+     cout << valores[i] << " \t";
     if((i+1)%(filas) == 0) cout << "\n";
     }
 }
@@ -45,16 +45,16 @@ matriz matriz::operator+(matriz &m) {
     int i, j;
     int fil = m.filas;
     int col = m.columnas;
-    matriz matrizRes(fil,col);
+    matriz mRes(fil,col);
     for  (i=0;i<(fil*col);i++)
     {
-        matrizRes.valores[i] = this->valores[i]+m.valores[i];
+        mRes.valores[i] = this->valores[i]+m.valores[i];
     }
-    return matrizRes;
+    return mRes;
 }
 
-double matriz::operator()(double f, double c) {
-    int valor = f*(columnas-1) + c-1;
+double& matriz::operator()(double f, double c) {
+    int valor = (f-1)*(columnas) + c-1;
     return valores[valor];
 
 }
@@ -70,17 +70,26 @@ double matriz::calcular_diagonal() {
 matriz matriz::operator*(matriz &m) {
     matriz mRes(filas, m.columnas);
     int i, j, k;
+    double r;
+    int bj, bk;
+    int bsize;
 
-    /* Final matrix position loop */
-    for (i = 0; i < m.columnas ; i++) {
-        /* Each matrix rotation loop */
-        for (j = 0; j < this->filas; j++) {
-            for (k = 0; k < m.columnas; k++) {
-                /* Ex: M3(1,1) = M3(1,1) + M1(1,2)*M2(2,1) */
-                mRes.valores[i * mRes.columnas + j] = mRes.valores[i * mRes.columnas + j] +
-                                                  valores[(i * this->columnas) + k] * m.valores[k * m.columnas + j];
+    if(this->bsize > 0) bsize = this->bsize; else bsize = 1;
+    for(bj = 0; bj < columnas; bj+=bsize){
+        for(bk=0; bk < columnas; bk +=bsize){
+            for(i=0; i<columnas; ++i){
+                for(j = bj; j < std::min(bj+bsize, columnas); ++j){
+                    r = 0;
+                    for(k = bk; k < std::min(bk+bsize, columnas); ++k){
+                        r +=this->valores[i*this->columnas + k] * m.valores[k*m.columnas+j];
+                    }
+                    mRes.valores[i*mRes.columnas+j] += r;
+                }
+
             }
         }
     }
     return mRes;
+
+
 }
