@@ -52,6 +52,8 @@ public class PracticeLatency2
             System.out.println("99.9 percentile = " + hg.getValueAtPercentile(99.9));
             System.out.println("Repetitions = " + (j+1) + "\n");
             System.out.println("--------------------------------------------------------------");
+
+            hg.reset();
         }
 
         // TODO Show min, max, mean and percentiles 99 and 99,9 with and without warm up

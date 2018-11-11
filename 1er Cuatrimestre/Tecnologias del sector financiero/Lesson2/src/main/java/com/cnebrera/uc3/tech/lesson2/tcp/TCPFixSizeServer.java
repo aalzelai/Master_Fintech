@@ -4,6 +4,7 @@ import com.cnebrera.uc3.tech.lesson2.util.FixSizeMessage;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.ByteBuffer;
 
@@ -15,10 +16,13 @@ public class TCPFixSizeServer
     public static void main(String argv[]) throws Exception
     {
         // TODO 1 create the welcome socket to accept new connections
+        final ServerSocket welcomeSocket = new ServerSocket(6789);
 
         // TODO 2 accept a connection
+        final Socket connectionSocket = welcomeSocket.accept();
 
         // TODO 3 call sendMessagesToClient with the new accepted socket
+        sendMessagesToClient(connectionSocket);
     }
 
     /**
@@ -46,8 +50,10 @@ public class TCPFixSizeServer
             rndMsg.toBinary(sendBuffer);
 
             // TODO 4 Write the contents in the output stream
+            outputStream.write(sendBuffer.array());
 
             // TODO 5 Flush to force the message to be send without batching
+            outputStream.flush();
 
             System.out.println("Message sent: " + rndMsg.toString());
 

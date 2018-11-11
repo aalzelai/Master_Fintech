@@ -22,10 +22,11 @@ public class McastServer
         final InetAddress addr = InetAddress.getByName(INET_ADDR);
 
         // TODO 1 Open a new DatagramSocket, which will be used to send the data.
-
+        final DatagramSocket serverSocket = new DatagramSocket();
         while (true)
         {
             // TODO 2 Call send message with the address and the created DatagramSocket
+            sendMessage(addr, serverSocket);
         }
     }
 
@@ -39,17 +40,19 @@ public class McastServer
     private static void sendMessage(final InetAddress addr, final DatagramSocket serverSocket) throws IOException, InterruptedException
     {
         // Generate random message
-        final VariableSizeMessage rndMsg = VariableSizeMessage.generateRandomMsg(8);
+        final VariableSizeMessage rndMsg = VariableSizeMessage.generateRandomMsg(80000);
 
         // Convert the message to binary
         final ByteBuffer binaryMessage = rndMsg.toBinary();
         binaryMessage.flip();
 
         // TODO 3 Create the datagram with the message
+        DatagramPacket msgPacket = new DatagramPacket(binaryMessage.array(), binaryMessage.limit(), addr, PORT);
 
         System.out.println("About to send message datagram of size " + binaryMessage.limit());
 
         // TODO 4 Send it
+        serverSocket.send(msgPacket);
 
         // Wait a bit
         Thread.sleep(1000);

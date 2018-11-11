@@ -133,10 +133,11 @@ public class PracticeLatency3
                 total = System.currentTimeMillis() - start;
 
                 // Add to extra time the time between expected and real
-                extTime = extTime + total - expectedTimeBetweenCalls;
+                extTime = extTime + expectedTimeBetweenCalls - total;
 
                 // Extra time could be negative, in that case, put it as 0
                 if (extTime < 0) extTime = 0;
+                if(total < 0) total = 0;
                 // Put results in histograms
 
                 histogram.recordValue(total);

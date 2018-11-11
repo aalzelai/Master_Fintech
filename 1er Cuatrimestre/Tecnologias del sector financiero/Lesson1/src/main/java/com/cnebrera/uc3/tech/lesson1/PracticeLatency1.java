@@ -57,5 +57,7 @@ public class PracticeLatency1
         /* Print time with the rest of measures format */
         System.out.println("#[Min     =       " + (hg.getMinValue()/SCALE_RATIO) +
                 ", Time           =        " + (total/SCALE_RATIO) + "]");
+        System.out.println("99 percentile = " + hg.getValueAtPercentile(99));
+        System.out.println("99.9 percentile = " + hg.getValueAtPercentile(99.9));
     }
 }
