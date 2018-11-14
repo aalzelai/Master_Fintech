@@ -47,11 +47,14 @@ public class RSACrypto
      */
     public RSACrypto() throws Lesson5Exception
     {
-    	// TODO 1
-    	
-        // TODO 2
-        
-        // TODO 3
+        //Generate a key pair
+        final KeyPair keyPair = this.generateKeyPair() ;
+
+        // Create the decode messages encoded with the own private key
+        this.ownPrivKeyDecoder = this.initCipher(Cipher.DECRYPT_MODE, keyPair.getPrivate()) ;
+
+        // Create the encode messages decoded with the own public key
+        this.ownPublKeyDecoder = this.initCipher(Cipher.ENCRYPT_MODE, keyPair.getPublic()) ;
     }
     
     /** Generate a new public/private key pair */
@@ -59,7 +62,10 @@ public class RSACrypto
     {
         try
         {
-            // TODO 4
+
+            final KeyPairGenerator keyGen = KeyPairGenerator.getInstance(RSA_CODEC);
+            keyGen.initialize(RSA_KEY_SIZE);
+            return keyGen.genKeyPair();
         }
         catch (final NoSuchAlgorithmException e)
         {
@@ -77,7 +83,9 @@ public class RSACrypto
     {
         try
         {
-            // TODO 5
+            final Cipher cipher = Cipher.getInstance(RSA_CODEC);
+            cipher.init(mode, key);
+            return cipher;
         }
         catch (final NoSuchPaddingException | InvalidKeyException | NoSuchAlgorithmException e)
         {
@@ -96,7 +104,7 @@ public class RSACrypto
     {
     	try
     	{
-    		// TODO 6
+            return this.ownPublKeyDecoder.doFinal(msg);
     	}
     	catch (final IllegalBlockSizeException | BadPaddingException e)
         {
@@ -114,7 +122,7 @@ public class RSACrypto
     {
     	try
     	{
-    		// TODO 7
+            return this.ownPrivKeyDecoder.doFinal(msg);
     	}
     	catch (final IllegalBlockSizeException | BadPaddingException e)
         {

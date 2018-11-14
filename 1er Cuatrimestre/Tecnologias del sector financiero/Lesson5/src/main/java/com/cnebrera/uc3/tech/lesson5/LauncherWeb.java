@@ -81,12 +81,22 @@ public class LauncherWeb
 
     	// Set the new HTTP Configuration if necessary
         final HttpConfiguration https_config = new HttpConfiguration() ;
-        
-    	// TODO 1
-        
-        // TODO 2
 
-        // TODO 3
+        https_config.addCustomizer(new SecureRequestCustomizer());
+
+
+        // Configure the SSL Context
+        final SslContextFactory sslContextFactory = new SslContextFactory();
+        sslContextFactory.setKeyStorePath("practicefive") ;
+        sslContextFactory.setKeyStorePassword("123456") ;
+        sslContextFactory.setKeyManagerPassword("123456") ;
+
+        // Set the port and idle timeout
+        final ServerConnector https = new ServerConnector(server,
+                new SslConnectionFactory(sslContextFactory, "http/1.1"),
+                new HttpConnectionFactory(https_config)) ;
+        https.setPort(8090) ;
+
 
         // Set the connectors
         server.setConnectors(new Connector[]{https}) ;

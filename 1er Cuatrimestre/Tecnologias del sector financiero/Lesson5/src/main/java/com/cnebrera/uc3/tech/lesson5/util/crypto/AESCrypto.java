@@ -42,7 +42,10 @@ public class AESCrypto
      */
     public static AESCrypto createNewInstance() throws Lesson5Exception
     {
-        // TODO 1
+        // Create the random key
+        final byte[] rndKey = new byte[KEY_SIZE] ;
+        RND.nextBytes(rndKey) ;
+        return new AESCrypto(rndKey);
     }
     
     /**
@@ -53,13 +56,20 @@ public class AESCrypto
      */
     public AESCrypto(final byte[] key) throws Lesson5Exception
     {
-        // TODO 2
+        // Store the binary key
+        this.aesKey = key.clone();
 
-        // TODO 3
+
+        // Store the binary key
+        final SecretKeySpec secretAESKey = new SecretKeySpec(this.aesKey, "AES");
+
 
         try
         {
-            // TODO 4
+            this.cipher = Cipher.getInstance("AES");
+            this.decipher = Cipher.getInstance("AES");
+            this.cipher.init(Cipher.ENCRYPT_MODE, secretAESKey);
+            this.decipher.init(Cipher.DECRYPT_MODE, secretAESKey);
         }
         catch(final NoSuchAlgorithmException | NoSuchPaddingException | InvalidKeyException e)
         {
@@ -88,7 +98,7 @@ public class AESCrypto
         {
             try
             {
-                // TODO 5
+                return this.cipher.doFinal(msg);
             }
             catch (final IllegalBlockSizeException | BadPaddingException e)
             {
@@ -110,7 +120,8 @@ public class AESCrypto
         {
             try
             {
-                // TODO 6
+                return this.decipher.doFinal(msg);
+
             }
             catch (final IllegalBlockSizeException | BadPaddingException e)
             {
