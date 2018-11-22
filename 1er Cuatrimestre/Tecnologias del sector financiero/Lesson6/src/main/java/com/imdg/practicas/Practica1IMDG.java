@@ -13,7 +13,11 @@ public class Practica1IMDG {
 
     public static void main(String[] args) {
 	    // Instanciar hazelcast y crear una cache
+        HazelcastInstance hzInstance = Hazelcast.newHazelcastInstance();
+        IMap<String, String> mapCustomers = hzInstance.getMap("practica5");
+
         // Insertar un dato y arrancar 3 veces el main,
+        mapCustomers.put("EjemploClave", "EjemploValor");
         // Leer el output de consola y ver como hazelcast va encontrando "miembros"
         // Comprobar que se conectan (en el output deberian verse 3 miembros en la consola) y capturarlo
         Config config = new Config();

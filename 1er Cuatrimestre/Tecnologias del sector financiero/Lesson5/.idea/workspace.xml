@@ -2,44 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bd3ab40-cab7-419d-9d4f-a12502b7639c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lesson3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atmosphere_atmosphere_runtime_2_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_3_5_v20151012.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3/src/main/java/publisher/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/src/main/java/publisher/Publisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson4/Lesson4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/Lesson4.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson4/Lesson4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/Lesson4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/LauncherCryptoAES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/LauncherCryptoAES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/LauncherWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/LauncherWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/AESCrypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/AESCrypto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/RSACrypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/RSACrypto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson5.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson5.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson5.zip" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,11 +32,12 @@
     <session id="436385026">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.38" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -133,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/AESCrypto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="1836">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
@@ -142,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webapp/js/practice/exercise/statistics.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="72" />
+            <state relative-caret-position="551">
+              <caret line="49" column="81" lean-forward="true" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -178,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/RSACrypto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="122" column="11" lean-forward="true" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+            <state relative-caret-position="1887">
+              <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -235,7 +202,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1715" />
     <option name="height" value="1047" />
@@ -246,8 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -430,13 +395,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542231307722" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson6" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -493,11 +460,13 @@
       <workItem from="1541963372514" duration="5036000" />
       <workItem from="1542145401080" duration="3216000" />
       <workItem from="1542227285210" duration="1663000" />
+      <workItem from="1542749413180" duration="99000" />
+      <workItem from="1542900340006" duration="123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9915000" />
+    <option name="totallyTimeSpent" value="10137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,9 +478,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1715" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29365557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26545843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -538,7 +507,7 @@
       <window_info anchor="right" id="Database" order="5" weight="0.32990935" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.18187311" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.16044776" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,6 +555,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/AESCrypto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/websocket/PricesListenerWebsocket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -607,6 +583,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/RSACrypto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/LauncherCryptoAES.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -614,24 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/RSACrypto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="122" column="11" lean-forward="true" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/AESCrypto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/webapp/js/practice/exercise/statistics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="72" />
+        <state relative-caret-position="551">
+          <caret line="49" column="81" lean-forward="true" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
         </state>
       </provider>
     </entry>
