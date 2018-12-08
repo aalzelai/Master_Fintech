@@ -1,13 +1,22 @@
 package com.cnebrera.uc3.tech.lesson9.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import javax.xml.bind.annotation.*;
+
 /**
  * This class represents the instrument info
  */
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Instrument
 {
+    @XmlAttribute(name="instrumentId")
+    @JsonProperty(value = "instrument_id")
     /** a int that identifies the instrument */
     private int instrumentId;
 
+    @XmlAttribute(name="symbol")
+    @JsonProperty(value = "symbol")
     /** human understood representation of the security */
     private String symbol;
 

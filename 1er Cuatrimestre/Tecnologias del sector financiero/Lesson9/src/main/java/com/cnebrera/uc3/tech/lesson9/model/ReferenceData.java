@@ -1,19 +1,32 @@
 package com.cnebrera.uc3.tech.lesson9.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import javax.xml.bind.annotation.*;
 import java.util.List;
 
 /**
  * This class represents the reference of the market
  */
+
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlRootElement(name = "referenceData", namespace = "http:/tech.uc3.cnebrera.com/lesson9")
 public class ReferenceData
 {
 
+    @XmlAttribute(name="marketId")
+    @JsonProperty(value = "market_id")
     /** a int that identifies the market */
     private int marketId;
 
+    @XmlAttribute(name="algorithmIdentifier")
+    @JsonProperty(value = "algorithm_identifier")
     /** a {@link java.lang.String} with the algorithm identifier */
     private String algorithmIdentifier;
 
+    @XmlElement(name="instrument")
+    @JsonProperty(value = "list_of_instruments")
     /** a List with the Instruments information **/
     private List<Instrument> listOfInstruments;
 

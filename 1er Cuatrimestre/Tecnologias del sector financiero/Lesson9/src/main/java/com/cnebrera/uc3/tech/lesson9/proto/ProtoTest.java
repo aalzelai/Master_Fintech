@@ -36,8 +36,17 @@ public class ProtoTest
 
         // Create a new builder for a reference data object
         Lesson9.ReferenceData.Builder referenceDataBuilder = Lesson9.ReferenceData.newBuilder();
+        Lesson9.Instrument.Builder instrumentBuilder = Lesson9.Instrument.newBuilder();
 
-        // TODO set the parameters in the builder using the values read in referenceData from JSON to ensure both have the same contents
+
+        referenceDataBuilder.setAlgorithmIdentifier(referenceData.getAlgorithmIdentifier());
+        referenceDataBuilder.setMarketId(referenceData.getMarketId());
+        for(int i = 0; i < referenceData.getListOfInstruments().size(); i++){
+            instrumentBuilder.setInstrumentId(referenceData.getListOfInstruments().get(i).getInstrumentId());
+            instrumentBuilder.setSymbol(referenceData.getListOfInstruments().get(i).getSymbol());
+            referenceDataBuilder.addInstrument(instrumentBuilder);
+        }
+
 
         // Call build on the builder to generate the object
         Lesson9.ReferenceData referenceDataProto = referenceDataBuilder.build();
