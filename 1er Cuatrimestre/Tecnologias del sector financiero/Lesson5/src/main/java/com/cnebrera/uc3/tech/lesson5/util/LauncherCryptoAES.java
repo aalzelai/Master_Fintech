@@ -1,4 +1,4 @@
-package com.cnebrera.uc3.tech.lesson5;
+package com.cnebrera.uc3.tech.lesson5.util;
 
 import com.cnebrera.uc3.tech.lesson5.util.Lesson5Exception;
 import com.cnebrera.uc3.tech.lesson5.util.crypto.AESCrypto;
