@@ -31,6 +31,12 @@ public class VolumeListener
     @Override
     public void entryAdded(EntryEvent<String, MarketOrder> entryEvent) {
 
+        if(volumenAcumulado < 30000) {
+            volumenAcumulado+= entryEvent.getValue().getVolume();
+        }else{
+            System.out.println("30.000 entries added");
+            volumenAcumulado = 0;
+        }
     }
 
     /**
@@ -40,6 +46,12 @@ public class VolumeListener
      */
     @Override
     public void entryUpdated(EntryEvent<String, MarketOrder> entryEvent) {
+        if(volumenAcumulado < 30000) {
+            volumenAcumulado+= entryEvent.getValue().getVolume();
+        }else{
+            System.out.println("30.000 entries added");
+            volumenAcumulado = 0;
+        }
 
     }
 }

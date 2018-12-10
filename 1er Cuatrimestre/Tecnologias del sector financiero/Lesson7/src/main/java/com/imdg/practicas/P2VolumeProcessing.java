@@ -61,9 +61,12 @@ public class P2VolumeProcessing {
 
         //Procesar los objetos que ha devuelto nuestro processor,
         //Recordad que nuestro processor devuelve un entero
+        int processedOrderVolumes = 0;
         for (Map.Entry<String,Object> orderVolumes : ret.entrySet()) {
+            processedOrderVolumes+= (int) orderVolumes.getValue();
 
         }
+        System.out.println("Processed order values= " + processedOrderVolumes);
 
 
         if( mapCustomers.entrySet(new EqualPredicate("volume",0)).isEmpty() ) {

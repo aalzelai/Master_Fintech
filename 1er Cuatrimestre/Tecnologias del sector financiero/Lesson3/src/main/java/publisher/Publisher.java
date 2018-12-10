@@ -20,7 +20,7 @@ public class Publisher {
         try{
             Aeron aeron = Aeron.connect();
             Publication publication = aeron.addPublication(CHANNEL, STREAM_ID);
-            
+
 
 
 

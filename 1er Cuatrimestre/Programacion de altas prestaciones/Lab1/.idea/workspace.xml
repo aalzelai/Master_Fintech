@@ -16,20 +16,8 @@
   <component name="ChangeListManager">
     <list default="true" id="97d45017-7a03-4d8b-bbeb-0af07f828871" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matriz.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Matriz.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matriz.h" beforeDir="false" afterPath="$PROJECT_DIR$/Matriz.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab1.dir/Matriz.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab1.dir/Matriz.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab1.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab1.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programación de altas prestaciones/Lab1/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programación de altas prestaciones/Lab1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programación de altas prestaciones/Lab1/cmake-build-debug/.idea/cmake-build-debug.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programación de altas prestaciones/Lab1/cmake-build-debug/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programación de altas prestaciones/Lab1/cmake-build-debug/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programación de altas prestaciones/Lab1/cmake-build-debug/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programación de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tecnologias del sector financiero/Lesson3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tecnologias del sector financiero/Lesson3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tecnologias del sector financiero/Lesson3/src/main/java/publisher/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tecnologias del sector financiero/Lesson3/src/main/java/publisher/Publisher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,10 +63,12 @@
     <session id="-1052551080">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -169,7 +159,7 @@
         <entry file="file://$PROJECT_DIR$/Matriz.h">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -178,7 +168,7 @@
         <entry file="file://$PROJECT_DIR$/Matriz.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="721">
-              <caret line="91" column="16" lean-forward="true" selection-start-line="76" selection-start-column="3" selection-end-line="91" selection-end-column="16" />
+              <caret line="91" column="16" selection-start-line="76" selection-start-column="3" selection-end-line="91" selection-end-column="16" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
               </folding>
@@ -225,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,14 +227,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../uc3m_prog_alt_prest/02-matriz-generica" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -313,11 +303,13 @@
       <workItem from="1538906895760" duration="2375000" />
       <workItem from="1538913598022" duration="3328000" />
       <workItem from="1539105667992" duration="5358000" />
+      <workItem from="1543251291259" duration="62000" />
+      <workItem from="1543251355641" duration="142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41951000" />
+    <option name="totallyTimeSpent" value="42155000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,10 +321,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.40421304" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5032538" side_tool="true" visible="true" weight="0.40421304" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49457702" visible="true" weight="0.413113" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.505423" side_tool="true" visible="true" weight="0.413113" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -402,20 +394,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matriz.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -426,10 +404,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matriz.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Matriz.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="721">
-          <caret line="91" column="16" lean-forward="true" selection-start-line="76" selection-start-column="3" selection-end-line="91" selection-end-column="16" />
+          <caret line="91" column="16" selection-start-line="76" selection-start-column="3" selection-end-line="91" selection-end-column="16" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
           </folding>

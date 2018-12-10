@@ -11,7 +11,8 @@ import java.util.Map;
  */
 public class OrderProcessor
         extends AbstractEntryProcessor<String,MarketOrder> implements Serializable {
-
+    int volumenAcumulado = 0;
+    int prevVol;
 
     /**
      * Metodo que debe procesar cada entrada y cambiar su volumen a 0, y devolver el antiguo
@@ -20,6 +21,17 @@ public class OrderProcessor
      */
     @Override
     public Object process(Map.Entry<String,MarketOrder> entry) {
-        return null;
+        if(volumenAcumulado < 30000) {
+            volumenAcumulado+= entry.getValue().getVolume();
+            prevVol = entry.getValue().getVolume();
+            MarketOrder order = entry.getValue();
+
+            order.setVolume(0);
+            entry.setValue(order);
+        }else{
+            System.out.println("30.000 entries added");
+            volumenAcumulado = 0;
+        }
+        return prevVol;
     }
 }
