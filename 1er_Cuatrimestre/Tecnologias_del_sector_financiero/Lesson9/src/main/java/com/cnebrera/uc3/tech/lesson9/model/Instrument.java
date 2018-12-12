@@ -8,6 +8,7 @@ import javax.xml.bind.annotation.*;
  * This class represents the instrument info
  */
 @XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name="instrument")
 public class Instrument
 {
     @XmlAttribute(name="instrumentId")
