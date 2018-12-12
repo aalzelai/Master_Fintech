@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad2df517-e40c-406e-b8d4-7b8dacb8b4cd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema1.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/velocity/VelocityClassExampleWithData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/FullTeacherInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/StudentLessons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/TeacherInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/velocityClassExample.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Lesson8-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Lesson8-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/AbstractXMLLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/InvalidXMLLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/ValidXMLLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/VelocityGeneratorLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/XSDGeneratorLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/XjcLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/jaxb/JAXBHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/jaxb/MySchemaOutputResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/util/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/velocity/VelocityHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/xjc/FullTeacherInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/xjc/Lesson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/xjc/ObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/xjc/StudentLessons.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cnebrera/uc3/tech/lesson8/xjc/TeacherInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/invalid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/practice8.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/valid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/velocityClassExample.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Big Data/Práctica OpenRefine.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Big Data/Práctica OpenRefine.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Big Data/Práctica OpenRefine.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Big Data/Práctica OpenRefine.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Introducción a los Mercados Financieros/Entregas/Tarea 1/Tarea1AndoniAlcelay.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Introducción a los Mercados Financieros/Entregas/Tarea 1/Tarea1AndoniAlcelay.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Introducción a los Mercados Financieros/Entregas/Tarea 1/Tarea1AndoniAlcelay.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Introducción a los Mercados Financieros/Entregas/Tarea 1/Tarea1AndoniAlcelay.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/.idea/Lab1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/.idea/Lab1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/Matriz.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/Matriz.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/Matriz.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/Matriz.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/Matriz.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/Matriz.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/Lab1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/Lab1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/Lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/Lab1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/main.cpp.save" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/main.cpp.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/matrices.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/matrices.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/matriz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/matriz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Programacion de altas prestaciones/Lab1/matriz.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion de altas prestaciones/Lab1/matriz.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Sistemas de información/Sistemas_Tema II.- Sesión 3 y 4 PRÁCTICA-201810.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas de información/Sistemas_Tema II.- Sesión 3 y 4 PRÁCTICA-201810.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Sistemas de información/Sistemas_Tema_3_Sesion_1_Mercados_Electrónicos_Sesion_Practica-201810.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas de información/Sistemas_Tema_3_Sesion_1_Mercados_Electrónicos_Sesion_Practica-201810.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/Lesson1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/Lesson1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/Lesson1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/Lesson1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/Lesson1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/Lesson1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/Lesson1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/Lesson1.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency1Output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency1Output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency2Output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency2Output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency3Output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/PracticeLatency3Output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/simulator/BaseSyncOpSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/simulator/BaseSyncOpSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulLongOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulLongOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulRndPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulRndPark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulSleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/src/main/java/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulSleep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/PracticeLatency1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/PracticeLatency1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/PracticeLatency2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/PracticeLatency2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/PracticeLatency3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/PracticeLatency3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/PracticeLatency3$Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/PracticeLatency3$Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/PracticeLatency3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/PracticeLatency3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/simulator/BaseSyncOpSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/simulator/BaseSyncOpSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulLongOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulLongOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulRndPark.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulRndPark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulSleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson1/target/classes/com/cnebrera/uc3/tech/lesson1/simulator/SyncOpSimulSleep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/acceptor/AcceptorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/acceptor/AcceptorRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/acceptor/QuickFixAcceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/acceptor/QuickFixAcceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/initiator/InitiatorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/initiator/InitiatorRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/initiator/QuickFixInitiator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/initiator/QuickFixInitiator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/marketDataProvider/MarketDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/marketDataProvider/MarketDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/marketDataProvider/MarketDataRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/marketDataProvider/MarketDataRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/marketDataProvider/MarketDataSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/marketDataProvider/MarketDataSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/marketDataProvider/MarketDataSubscriberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/marketDataProvider/MarketDataSubscriberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/marketDataProvider/PriceReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/java/com/cenebrera/uc3/tech/lesso10/marketDataProvider/PriceReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/resources/BBVA.prices" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/resources/BBVA.prices" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/resources/acceptor.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/resources/acceptor.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson10/src/main/resources/initiator.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson10/src/main/resources/initiator.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/Lesson2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/Lesson2.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/Lesson2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/Lesson2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/Lesson2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/Lesson2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/Lesson2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/Lesson2.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/mcast/McastClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/mcast/McastClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/mcast/McastServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/mcast/McastServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/tcp/TCPFixSizeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/tcp/TCPFixSizeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/tcp/TCPFixSizeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/tcp/TCPFixSizeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeClientBigMsgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeClientBigMsgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/util/FixSizeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/util/FixSizeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/util/VariableSizeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/src/main/java/com/cnebrera/uc3/tech/lesson2/util/VariableSizeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/mcast/McastClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/mcast/McastClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/mcast/McastServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/mcast/McastServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/tcp/TCPFixSizeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/tcp/TCPFixSizeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/tcp/TCPFixSizeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/tcp/TCPFixSizeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeClientBigMsgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeClientBigMsgs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/tcp/TCPVarSizeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/util/FixSizeMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/util/FixSizeMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/util/VariableSizeMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/target/classes/com/cnebrera/uc3/tech/lesson2/util/VariableSizeMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson2/~$esson2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/~$esson2.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/.idea/libraries/Maven__io_aeron_aeron_client_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/libraries/Maven__io_aeron_aeron_client_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/.idea/libraries/Maven__io_aeron_aeron_driver_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/libraries/Maven__io_aeron_aeron_driver_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/.idea/libraries/Maven__org_agrona_Agrona_0_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/libraries/Maven__org_agrona_Agrona_0_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/Lesson3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/Lesson3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/src/main/java/com/cnebrera/uc3/tech/lesson3/driver/BackOffMediaDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/src/main/java/com/cnebrera/uc3/tech/lesson3/driver/BackOffMediaDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/src/main/java/com/cnebrera/uc3/tech/lesson3/driver/LowLatencyMediaDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/src/main/java/com/cnebrera/uc3/tech/lesson3/driver/LowLatencyMediaDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson3/src/main/java/publisher/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/src/main/java/publisher/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_atmosphere_atmosphere_runtime_2_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_atmosphere_atmosphere_runtime_2_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/Lesson.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/Lesson.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/Lesson4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/Lesson4.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/Lesson4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/Lesson4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/Lesson4.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/Lesson4.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/IPricesListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/IPricesListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/PriceSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/PriceSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/PricesPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/PricesPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/long_polling/LongPollingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/long_polling/LongPollingHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/long_polling/PricesListenerLongPolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/long_polling/PricesListenerLongPolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/websocket/PricesListenerWebsocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/websocket/PricesListenerWebsocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/websocket/WebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/handlers/websocket/WebSocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/util/JacksonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/util/JacksonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/util/JacksonViews.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/util/JacksonViews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/util/PriceMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/java/com/cnebrera/uc3/tech/lesson4/util/PriceMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/js/external/atmosphere/atmosphere.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/js/external/atmosphere/atmosphere.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/js/external/jquery/jquery-2.0.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/js/external/jquery/jquery-2.0.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/js/external/jquery/jquery-3.0.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/js/external/jquery/jquery-3.0.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/js/practice/exercise/remoteConnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/js/practice/exercise/remoteConnection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/js/practice/exercise/statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/js/practice/exercise/statistics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/js/practice/launcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/js/practice/launcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/js/practice/util/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/js/practice/util/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/main/resources/webapp/js/practice/util/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/main/resources/webapp/js/practice/util/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/test/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/Lesson4-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/Lesson4-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/Lesson4-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/Lesson4-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/Launcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/IPricesListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/IPricesListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/PriceSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/PriceSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/PricesPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/PricesPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/long_polling/LongPollingHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/long_polling/LongPollingHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/long_polling/PricesListenerLongPolling.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/long_polling/PricesListenerLongPolling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/websocket/PricesListenerWebsocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/websocket/PricesListenerWebsocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/websocket/WebSocketHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/websocket/WebSocketHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/websocket/WebSocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/handlers/websocket/WebSocketHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/JacksonMapper$FilteredTypeResolverBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/JacksonMapper$FilteredTypeResolverBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/JacksonMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/JacksonMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/JacksonViews$Lesson4View.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/JacksonViews$Lesson4View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/JacksonViews$Public.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/JacksonViews$Public.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/JacksonViews.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/JacksonViews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/PriceMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/com/cnebrera/uc3/tech/lesson4/util/PriceMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/js/external/atmosphere/atmosphere.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/js/external/atmosphere/atmosphere.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/js/external/jquery/jquery-2.0.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/js/external/jquery/jquery-2.0.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/js/external/jquery/jquery-3.0.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/js/external/jquery/jquery-3.0.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/js/practice/exercise/remoteConnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/js/practice/exercise/remoteConnection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/js/practice/exercise/statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/js/practice/exercise/statistics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/js/practice/launcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/js/practice/launcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/js/practice/util/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/js/practice/util/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/classes/webapp/js/practice/util/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/classes/webapp/js/practice/util/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson4/target/test-classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/target/test-classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_atmosphere_atmosphere_runtime_2_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_atmosphere_atmosphere_runtime_2_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_3_5_v20151012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_3_5_v20151012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/CertSRAutofirma.cer" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/CertSRAutofirma.cer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/Lesson5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/Lesson5.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/Lesson5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/Lesson5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/Lesson5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/Lesson5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/Lesson5.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/Lesson5.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/PracticeFivePublica.cer" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/PracticeFivePublica.cer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/practicefive" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/practicefive" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/LauncherCryptoRSA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/LauncherCryptoRSA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/LauncherWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/LauncherWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/IPricesListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/IPricesListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/PriceSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/PriceSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/PricesPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/PricesPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/long_polling/LongPollingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/long_polling/LongPollingHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/long_polling/PricesListenerLongPolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/long_polling/PricesListenerLongPolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/websocket/PricesListenerWebsocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/websocket/PricesListenerWebsocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/websocket/WebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/handlers/websocket/WebSocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/JacksonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/JacksonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/JacksonViews.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/JacksonViews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/LauncherCryptoAES.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/LauncherCryptoAES.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/Lesson5Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/Lesson5Exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/PriceMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/PriceMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/AESCrypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/AESCrypto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/RSACrypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/java/com/cnebrera/uc3/tech/lesson5/util/crypto/RSACrypto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/js/external/atmosphere/atmosphere.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/js/external/atmosphere/atmosphere.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/js/external/jquery/jquery-2.0.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/js/external/jquery/jquery-2.0.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/js/external/jquery/jquery-3.0.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/js/external/jquery/jquery-3.0.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/js/practice/exercise/remoteConnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/js/practice/exercise/remoteConnection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/js/practice/exercise/statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/js/practice/exercise/statistics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/js/practice/launcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/js/practice/launcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/js/practice/util/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/js/practice/util/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/main/resources/webapp/js/practice/util/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/main/resources/webapp/js/practice/util/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/src/test/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/Lesson5-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/Lesson5-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/Lesson5-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/Lesson5-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/LauncherCryptoRSA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/LauncherCryptoRSA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/LauncherWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/LauncherWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/IPricesListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/IPricesListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/PriceSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/PriceSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/PricesPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/PricesPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/long_polling/LongPollingHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/long_polling/LongPollingHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/long_polling/PricesListenerLongPolling.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/long_polling/PricesListenerLongPolling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/websocket/PricesListenerWebsocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/websocket/PricesListenerWebsocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/websocket/WebSocketHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/websocket/WebSocketHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/websocket/WebSocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/handlers/websocket/WebSocketHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/JacksonMapper$FilteredTypeResolverBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/JacksonMapper$FilteredTypeResolverBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/JacksonMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/JacksonMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/JacksonViews$Lesson5View.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/JacksonViews$Lesson5View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/JacksonViews$Public.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/JacksonViews$Public.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/JacksonViews.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/JacksonViews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/LauncherCryptoAES.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/LauncherCryptoAES.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/Lesson5Exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/Lesson5Exception.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/PriceMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/PriceMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/crypto/AESCrypto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/crypto/AESCrypto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/crypto/RSACrypto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/com/cnebrera/uc3/tech/lesson5/util/crypto/RSACrypto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/js/external/atmosphere/atmosphere.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/js/external/atmosphere/atmosphere.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/js/external/jquery/jquery-2.0.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/js/external/jquery/jquery-2.0.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/js/external/jquery/jquery-3.0.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/js/external/jquery/jquery-3.0.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/js/practice/exercise/remoteConnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/js/practice/exercise/remoteConnection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/js/practice/exercise/statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/js/practice/exercise/statistics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/js/practice/launcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/js/practice/launcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/js/practice/util/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/js/practice/util/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/classes/webapp/js/practice/util/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/classes/webapp/js/practice/util/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson5/target/test-classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson5/target/test-classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/.idea/libraries/Maven__com_hazelcast_hazelcast_3_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/.idea/libraries/Maven__com_hazelcast_hazelcast_3_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/.idea/libraries/Maven__com_hazelcast_hazelcast_client_3_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/.idea/libraries/Maven__com_hazelcast_hazelcast_client_3_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/Lesson6.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/Lesson6.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/Lesson6.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/Lesson6.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/Lesson6.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/Lesson6.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/MasterHazelcastPractica.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/MasterHazelcastPractica.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/bin/cluster.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/bin/cluster.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/bin/hazelcast-full-example.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/bin/hazelcast-full-example.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/bin/hazelcast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/bin/hazelcast.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/bin/start.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/bin/start.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/bin/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/bin/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/bin/stop.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/bin/stop.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/bin/stop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/bin/stop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/demo/clientConsole.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/demo/clientConsole.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/demo/clientConsole.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/demo/clientConsole.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/demo/cluster.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/demo/cluster.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/demo/console.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/demo/console.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/demo/console.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/demo/console.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/lib/hazelcast-3.7.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/lib/hazelcast-3.7.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/lib/hazelcast-all-3.7.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/lib/hazelcast-all-3.7.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/lib/hazelcast-client-3.7.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/lib/hazelcast-client-3.7.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/lib/hazelcast-spring-3.7.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/lib/hazelcast-spring-3.7.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/license/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/license/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/license/apache-v2-license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/license/apache-v2-license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/license/mancenter-license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/license/mancenter-license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/license/minimal-json-license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/license/minimal-json-license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/license/notice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/license/notice.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/mancenter/mancenter-3.7.2.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/mancenter/mancenter-3.7.2.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/mancenter/startManCenter.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/mancenter/startManCenter.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/mancenter/startManCenter.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/mancenter/startManCenter.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/readme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/hazelcast-3.7.2/release_notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/hazelcast-3.7.2/release_notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/src/main/java/com/imdg/pojos/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/src/main/java/com/imdg/pojos/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/src/main/java/com/imdg/practicas/Practica1IMDG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/src/main/java/com/imdg/practicas/Practica1IMDG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/src/main/java/com/imdg/practicas/Practica3IMDG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/src/main/java/com/imdg/practicas/Practica3IMDG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/src/main/java/com/imdg/practicas/PracticaIMDG2a.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/src/main/java/com/imdg/practicas/PracticaIMDG2a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/src/main/java/com/imdg/practicas/PracticaIMDG2b.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/src/main/java/com/imdg/practicas/PracticaIMDG2b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/src/main/java/com/imdg/practicas/PracticaIMDG2c.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/src/main/java/com/imdg/practicas/PracticaIMDG2c.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/target/classes/com/imdg/pojos/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/target/classes/com/imdg/pojos/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/target/classes/com/imdg/practicas/Practica1IMDG.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/target/classes/com/imdg/practicas/Practica1IMDG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/target/classes/com/imdg/practicas/Practica3IMDG.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/target/classes/com/imdg/practicas/Practica3IMDG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/target/classes/com/imdg/practicas/PracticaIMDG2a.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/target/classes/com/imdg/practicas/PracticaIMDG2a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/target/classes/com/imdg/practicas/PracticaIMDG2b.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/target/classes/com/imdg/practicas/PracticaIMDG2b.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson6/target/classes/com/imdg/practicas/PracticaIMDG2c.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/target/classes/com/imdg/practicas/PracticaIMDG2c.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/.idea/libraries/Maven__com_hazelcast_hazelcast_3_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/.idea/libraries/Maven__com_hazelcast_hazelcast_3_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/.idea/libraries/Maven__com_hazelcast_hazelcast_client_3_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/.idea/libraries/Maven__com_hazelcast_hazelcast_client_3_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/Lesson7.7z" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/Lesson7.7z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/Lesson7.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/Lesson7.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/Lesson7.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/Lesson7.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/MasterHazelcastPractica.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/MasterHazelcastPractica.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/src/main/java/com/imdg/listeners/VolumeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/src/main/java/com/imdg/listeners/VolumeListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/src/main/java/com/imdg/pojos/MarketOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/src/main/java/com/imdg/pojos/MarketOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/src/main/java/com/imdg/practicas/P1VolumeAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/src/main/java/com/imdg/practicas/P1VolumeAdder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/src/main/java/com/imdg/practicas/P1VolumeControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/src/main/java/com/imdg/practicas/P1VolumeControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/src/main/java/com/imdg/practicas/P2VolumeProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/src/main/java/com/imdg/practicas/P2VolumeProcessing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/src/main/java/com/imdg/processors/OrderProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/src/main/java/com/imdg/processors/OrderProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/target/MasterHazelcastPractica-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/target/MasterHazelcastPractica-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/target/classes/com/imdg/listeners/VolumeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/target/classes/com/imdg/listeners/VolumeListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/target/classes/com/imdg/pojos/MarketOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/target/classes/com/imdg/pojos/MarketOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/target/classes/com/imdg/practicas/P1VolumeAdder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/target/classes/com/imdg/practicas/P1VolumeAdder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/target/classes/com/imdg/practicas/P1VolumeControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/target/classes/com/imdg/practicas/P1VolumeControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/target/classes/com/imdg/practicas/P2VolumeProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/target/classes/com/imdg/practicas/P2VolumeProcessing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/target/classes/com/imdg/processors/OrderProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/target/classes/com/imdg/processors/OrderProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson7/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/Lesson8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/java/com/cnebrera/uc3/tech/lesson8/AbstractXMLLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/AbstractXMLLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/java/com/cnebrera/uc3/tech/lesson8/InvalidXMLLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/InvalidXMLLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/java/com/cnebrera/uc3/tech/lesson8/ValidXMLLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/ValidXMLLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/java/com/cnebrera/uc3/tech/lesson8/VelocityGeneratorLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/VelocityGeneratorLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/java/com/cnebrera/uc3/tech/lesson8/XSDGeneratorLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/XSDGeneratorLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/java/com/cnebrera/uc3/tech/lesson8/XjcLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/XjcLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/JAXBHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/JAXBHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/MySchemaOutputResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/MySchemaOutputResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/java/com/cnebrera/uc3/tech/lesson8/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/java/com/cnebrera/uc3/tech/lesson8/velocity/VelocityHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/velocity/VelocityHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/resources/invalid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/invalid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/resources/practice8.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/practice8.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/resources/valid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/valid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson8/src/main/resources/velocityClassExample.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__com_esotericsoftware_kryo_4_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__com_esotericsoftware_kryo_4_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_11_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_11_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__org_objenesis_objenesis_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__org_objenesis_objenesis_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/Lesson9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/Lesson9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/Lesson9.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/Lesson9.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/Measurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/Measurement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/jaxb/JaxbSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/jaxb/JaxbSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/jaxb/JaxbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/jaxb/JaxbTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/json/JsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/json/JsonSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/json/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/json/JsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/kryo/KryoSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/kryo/KryoSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/kryo/KryoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/kryo/KryoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/model/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/model/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/model/ReferenceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/model/ReferenceData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/proto/Lesson9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/proto/Lesson9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/proto/ProtoSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/proto/ProtoSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/proto/ProtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/cnebrera/uc3/tech/lesson9/proto/ProtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/Example.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/Example.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/Example.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/Example.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/Reference.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/Reference.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/bin/protoc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/bin/protoc.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/any.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/any.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/api.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/api.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/compiler/plugin.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/compiler/plugin.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/descriptor.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/descriptor.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/duration.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/duration.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/empty.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/empty.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/field_mask.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/field_mask.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/source_context.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/source_context.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/struct.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/struct.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/timestamp.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/timestamp.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/type.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/type.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/include/google/protobuf/wrappers.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/include/google/protobuf/wrappers.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/lesson9.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/lesson9.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/protoc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/protoc.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/src/main/resources/scritpProto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/resources/scritpProto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/Lesson9-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/Lesson9-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/Example.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/Example.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/Example.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/Example.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/Reference.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/Reference.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/bin/protoc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/bin/protoc.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/Measurement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/Measurement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/Serializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/Serializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/jaxb/JaxbSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/jaxb/JaxbSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/jaxb/JaxbTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/jaxb/JaxbTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/json/JsonSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/json/JsonSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/json/JsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/json/JsonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/kryo/KryoSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/kryo/KryoSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/kryo/KryoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/kryo/KryoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/model/Instrument.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/model/Instrument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/model/ReferenceData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/model/ReferenceData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$Instrument$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$Instrument$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$Instrument$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$Instrument$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$Instrument.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$Instrument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$InstrumentOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$InstrumentOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$ReferenceData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$ReferenceData$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$ReferenceData$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$ReferenceData$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$ReferenceData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$ReferenceData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$ReferenceDataOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9$ReferenceDataOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/Lesson9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/ProtoSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/ProtoSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/ProtoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/com/cnebrera/uc3/tech/lesson9/proto/ProtoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/any.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/any.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/api.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/api.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/compiler/plugin.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/compiler/plugin.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/descriptor.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/descriptor.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/duration.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/duration.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/empty.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/empty.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/field_mask.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/field_mask.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/source_context.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/source_context.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/struct.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/struct.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/timestamp.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/timestamp.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/type.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/type.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/include/google/protobuf/wrappers.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/include/google/protobuf/wrappers.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/lesson9.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/lesson9.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/protoc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/protoc.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/classes/scritpProto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/classes/scritpProto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1er Cuatrimestre/Tecnologias del sector financiero/Lesson9/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-800326141">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="16" />
+          <entry key="vm" value="1" />
+          <entry key="xml" value="3" />
+          <entry key="xsd" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="16" />
+          <entry key="VTL" value="1" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="8" />
+          <entry key="txt" value="11" />
+          <entry key="vm" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="8" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="VTL" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1077618013">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+          <entry key="xml" value="1" />
+          <entry key="xsd" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="8" />
+          <entry key="java" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="PLAIN_TEXT" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/velocity/VelocityHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/velocity/VelocityClassExampleWithData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/MySchemaOutputResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/JAXBHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="90" column="54" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schema1.xsd">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/VelocityGeneratorLauncher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/util/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="39" column="95" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/velocityClassExample.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/TeacherInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>generateSchema</find>
+      <find>createOutput</find>
+      <find>hemaOutputResolver schemaOutputRe</find>
+      <find>NAMESPACE_URI</find>
+      <find>namespaceUriNAMESPACE_URI</find>
+      <find>target</find>
+      <find>context.put(&quot;now&quot;, new Date()) ;</find>
+      <find>stringValues.add(&quot;Hello&quot;) ;</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/XjcLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/AbstractXMLLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/MySchemaOutputResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/VelocityGeneratorLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/JAXBHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/FullTeacherInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/velocityClassExample.vm" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/velocity/VelocityClassExampleWithData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/util/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/velocity/VelocityHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Lesson8" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="762" />
+    <option name="width" value="1165" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lesson8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lesson8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lesson8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lesson8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lesson8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lesson8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lesson8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="jaxb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lesson8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lesson8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="velocity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lesson8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="xjc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lesson8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544614405442" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.VelocityGeneratorLauncher">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvalidXMLLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cnebrera.uc3.tech.lesson8.InvalidXMLLauncher" />
+      <module name="Lesson8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnebrera.uc3.tech.lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
+    <configuration name="ValidXMLLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cnebrera.uc3.tech.lesson8.ValidXMLLauncher" />
+      <module name="Lesson8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnebrera.uc3.tech.lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
+    <configuration name="VelocityGeneratorLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cnebrera.uc3.tech.lesson8.VelocityGeneratorLauncher" />
+      <module name="Lesson8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnebrera.uc3.tech.lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XSDGeneratorLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\devsoft\java\jdk\1.8.0_51\win64\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cnebrera.uc3.tech.lesson8.XSDGeneratorLauncher" />
+      <module name="Lesson8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnebrera.uc3.tech.lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
+    <configuration name="XjcLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cnebrera.uc3.tech.lesson8.XjcLauncher" />
+      <module name="Lesson8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnebrera.uc3.tech.lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.XjcLauncher" />
+      <item itemvalue="Application.XSDGeneratorLauncher" />
+      <item itemvalue="Application.ValidXMLLauncher" />
+      <item itemvalue="Application.InvalidXMLLauncher" />
+      <item itemvalue="Application.VelocityGeneratorLauncher" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VelocityGeneratorLauncher" />
+        <item itemvalue="Application.ValidXMLLauncher" />
+        <item itemvalue="Application.InvalidXMLLauncher" />
+        <item itemvalue="Application.XSDGeneratorLauncher" />
+        <item itemvalue="Application.XjcLauncher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad2df517-e40c-406e-b8d4-7b8dacb8b4cd" name="Default" comment="" />
+      <created>1544456296551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544456296551</updated>
+      <workItem from="1544456304196" duration="17000" />
+      <workItem from="1544605398210" duration="4911000" />
+      <workItem from="1544611517483" duration="2607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7535000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="762" y="0" width="1165" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29954752" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5388828" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4030668" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3263965" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.33187294" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32932165" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/JAXBHandler.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/MySchemaOutputResolver.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/practice8.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/XjcLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/AbstractXMLLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/Lesson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/StudentLessons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/FullTeacherInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#2552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/valid.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/invalid.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/devsoft/java/jdk/1.8.0_51/win64/src.zip!/javax/xml/bind/JAXBContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12189">
+          <caret line="748" column="16" selection-start-line="748" selection-start-column="16" selection-end-line="748" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/XSDGeneratorLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/xjc/TeacherInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/MySchemaOutputResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/jaxb/JAXBHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="90" column="54" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schema1.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/velocity/VelocityClassExampleWithData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/velocityClassExample.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="39" column="95" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/VelocityGeneratorLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cnebrera/uc3/tech/lesson8/velocity/VelocityHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="install -U" />
+  </component>
+</project>
