@@ -7,8 +7,10 @@ import com.hazelcast.map.listener.EntryAddedListener;
 import com.hazelcast.map.listener.EntryUpdatedListener;
 import com.hazelcast.map.listener.MapListener;
 import com.imdg.pojos.MarketOrder;
+import com.sun.media.jfxmedia.logging.Logger;
 
 import java.io.Serializable;
+import java.util.HashMap;
 
 /**
  * Created by Sobremesa on 31/10/2016.
@@ -19,6 +21,7 @@ public class VolumeListener
 
     private String instrumentoAControlar;
     private int volumenAcumulado=0;
+    private HashMap<String, MarketOrder> orders = new HashMap<>();
 
     public VolumeListener(String instrument) {
         this.instrumentoAControlar=instrument;
@@ -33,11 +36,13 @@ public class VolumeListener
 
         if(volumenAcumulado < 30000) {
             volumenAcumulado+= entryEvent.getValue().getVolume();
+            orders.put(entryEvent.getKey(), entryEvent.getValue());
         }else{
             System.out.println("30.000 entries added");
             volumenAcumulado = 0;
         }
     }
+
 
     /**
      * Escuchar entradas que se añaden, restar valor antiguo y
@@ -46,10 +51,17 @@ public class VolumeListener
      */
     @Override
     public void entryUpdated(EntryEvent<String, MarketOrder> entryEvent) {
+
         if(volumenAcumulado < 30000) {
-            volumenAcumulado+= entryEvent.getValue().getVolume();
+            try {
+                volumenAcumulado+= (entryEvent.getValue().getVolume() - orders.get(entryEvent.getKey()).getVolume());
+                orders.put(entryEvent.getKey(), entryEvent.getValue());
+            }catch (NullPointerException e){
+                Logger.logMsg(Logger.ERROR, "The selected order has not been found");
+            }
+
         }else{
-            System.out.println("30.000 entries added");
+            System.out.println("30.000 entries updated");
             volumenAcumulado = 0;
         }
 
