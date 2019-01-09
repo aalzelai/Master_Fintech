@@ -1,0 +1,8 @@
+1)	SELECT formatt FROM products where product = ‘Como y tronar’;
+2)	UPDATE products set product = ‘antes’ where product = ‘Son antes’;
+3)	UPDATE products SET formatt = ‘roasted’ where product = ‘Duende y luna’
+4)	SELECT * FROM products where product = ‘Milagros’ AND formatt = ‘capsules’
+5)	SELECT * FROM order where user = ‘cisni’ order by orderdate desc
+6)	SELECT sum(units) FROM order where user = ‘naki’
+7)	INSERT INTO products  (product, barcode, formatt, machineMake, machineModel, caffea, varietal, origin, roasting, process, packaging, retailPrice, stock, min_stock, max_stock, costPrice, provider, taxID, salesPerson, email, phoneNum, bankAccount, thoroughfare, wayName, gateNumber, blockk, stairs, floorr, door, ZIP, town, country) 
+	VALUES('Gravedad de retrato', 'QIO99947O911189', 'raw bean', null, null, 'Arabica', 'Kopi Luwak', 'Indonesia', 'blend', 'normal', 'pkg 200 g.', '8.05 E', 1347, 260, 4680, '7.24 E', 'Alci S.A.', 'Q53972745W', 'Ana Olga Arana', 'alci@servcorreo.ucetreseme.kom', 555976516, 'OQO54088O57612816', 'Circus', 'Walnut Tree', '136', null, null, 'Sixth', null, 77579, 'Villatopos de Manteca', 'Eritrea');
