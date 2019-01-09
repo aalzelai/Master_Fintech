@@ -1,0 +1,17 @@
+server:
+    port: 8888
+security:
+ user:
+ name: practica12
+ password: mysecret
+spring:
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/gorrochablan/mastercloud-practica12
+
+eureka:
+ instance:
+ serviceUrl:
+ defaultZone: "http://localhost:8761/eureka/"
