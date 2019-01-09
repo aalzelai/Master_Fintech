@@ -10,6 +10,7 @@ import com.hazelcast.query.impl.predicates.EqualPredicate;
 import com.hazelcast.query.impl.predicates.NotEqualPredicate;
 import com.imdg.pojos.MarketOrder;
 import com.imdg.processors.OrderProcessor;
+import com.sun.media.jfxmedia.logging.Logger;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -64,7 +65,6 @@ public class P2VolumeProcessing {
         int processedOrderVolumes = 0;
         for (Map.Entry<String,Object> orderVolumes : ret.entrySet()) {
             processedOrderVolumes+= (int) orderVolumes.getValue();
-
         }
         System.out.println("Processed order values= " + processedOrderVolumes);
 
